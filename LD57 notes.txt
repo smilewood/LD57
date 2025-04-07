@@ -1,0 +1,49 @@
+astroid harvesting spaceship. 
+each "day" get dropped off in the astroid field, they came drifting in from the edges. 
+	-the longer a day goes the stronger the astroids get
+fly around, initially sluggish
+shoot at astroids (use fuel? Maybe lasers to explain power use?)
+Collect minerals
+when fuel (or health) runs out the day is over, get picked up with any minerals collected. 
+The main point of the game is of course the upgrade tree, unlock upgrades with minerals
+	-firepower/rate
+		-additional guns
+		-bouncing shots
+	-fuel
+	-health
+	-colleciton range
+	-speed
+	-turn rate
+	-asteroid spawn rate / strength
+
+
+TODO:
+* implement upgrades
+	- spend collected crystals
+	- only allow if enough crystals
+* astroid damage effects
+	- I want a way to tell that the clusters are damaged together
+	- effect when the cluster breaks and takes several with it
+* make up astroid bands
+* Art
+	+ ship
+	+ shots
+	- HUD elements
+		* fuel bar
+		* maybe the collection pane
+	+ Upgrade icons
+	- find a font
+	- more asteroid varients
+	- planets for the background
+* tune upgrade numbers
+* Main Menu
+	- Come up with a name
+	- instructions that no one will read
+* playtest
+	- See if Riley wants to around noon
+* sound effects (shoot, fly, collect crystal)
+* music?
+* cooler upgrades
+	- bouncing shots comes to mind
+	- warp speed boost to get to the harder asteroids
+* Make LD page and Itch page
