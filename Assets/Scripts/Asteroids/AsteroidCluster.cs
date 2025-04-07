@@ -56,7 +56,7 @@ public class AsteroidCluster : MonoBehaviour
       {
          if(child.TryGetComponent(out AsteroidHealth hp))
          {
-            StartCoroutine(hp.FlashRed(.2f));
+            hp.DamageEffect();
          }
       }
    }

@@ -123,15 +123,15 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: SpaceMistCloud1
     originalName: 
-    pivot: {x: 0.88524586, y: -1.2474227}
+    pivot: {x: 0.27190334, y: -0.022675736}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 244
-      height: 194
+      width: 331
+      height: 441
     spriteID: 8379a6f2d16f1a840a35d51d533513f5
     spriteBone: []
     spriteOutline: []
@@ -153,10 +153,10 @@ ScriptedImporter:
     - name: SpaceMistCloud1
       frameIndex: 0
       cellRect:
-        x: 34
-        y: 242
-        width: 244
-        height: 194
+        x: 160
+        y: 10
+        width: 331
+        height: 441
       spriteId: 8379a6f2d16f1a840a35d51d533513f5
     linkedCells: []
     parentIndex: -1

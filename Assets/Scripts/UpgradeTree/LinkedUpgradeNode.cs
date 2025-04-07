@@ -9,8 +9,8 @@ public class LinkedUpgradeNode : MonoBehaviour
    // Start is called before the first frame update
    void Start()
    {
-      UILineRenderer connectingLine = GetComponentInChildren<UILineRenderer>();
-      connectingLine.points = new Vector2[] { Vector2.zero, LinkedNode.position - this.transform.position };
+      //UILineRenderer connectingLine = GetComponentInChildren<UILineRenderer>();
+      //connectingLine.points = new Vector2[] { Vector2.zero, LinkedNode.position - this.transform.position };
    }
 
 
@@ -18,9 +18,12 @@ public class LinkedUpgradeNode : MonoBehaviour
    void Update()
    {
 #if UNITY_EDITOR
-      UILineRenderer connectingLine = GetComponentInChildren<UILineRenderer>();
-      connectingLine.points = new Vector2[] { Vector2.zero, LinkedNode.position - this.transform.position };
-      connectingLine.SetAllDirty();
+      if (!Application.isPlaying)
+      {
+         UILineRenderer connectingLine = GetComponentInChildren<UILineRenderer>();
+         connectingLine.points = new Vector2[] { Vector2.zero, LinkedNode.position - this.transform.position };
+         connectingLine.SetAllDirty();
+      }
 #endif
    }
 }

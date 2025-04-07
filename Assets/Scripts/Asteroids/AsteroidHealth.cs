@@ -49,7 +49,10 @@ public class AsteroidHealth : MonoBehaviour
    {
       this.currentHealth = health;
    }
-
+   public void DamageEffect()
+   {
+      StartCoroutine(FlashRed(.2f));
+   }
    public IEnumerator FlashRed(float time)
    {
       image.color = Color.red;
